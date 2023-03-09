@@ -1,0 +1,51 @@
+.todo.done .content {
+  text-decoration: line-through;
+}
+
+.content:hover {
+  cursor: pointer;
+}
+
+.todos {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.todo {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  border-radius: 5px;
+  padding: 20px;
+  color: white;
+}
+
+form {
+  display: flex;
+  gap: 5%;
+}
+
+.todo-input {
+  width: 65%;
+  height: 25px;
+  padding-left: 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.todo-submit {
+  width: 30%;
+  background-color: rgb(87, 204, 41);
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
+
+.delete {
+  width: 30%;
+  height: 25px;
+  background-color: rgb(204, 93, 41);
+  border: none;
+  color: white;
+  border-radius: 3px;
+}
